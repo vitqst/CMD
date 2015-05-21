@@ -1,2 +1,4 @@
 Scan IP in local 
  FOR /L %x in (1,1,255) do ping -s 1 192.168.1.%x >> D:\pings.txt
+Scan MAC after scan IP
+ arp -a 
